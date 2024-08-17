@@ -225,11 +225,9 @@ h3{
 
 .product-galary{
     width:100%;
-    height:800px;
-    /* border:1px solid wheat; */
     margin:auto;
     margin-top:18px;
-    
+     
     
 }
 .product-selling{
@@ -240,17 +238,16 @@ h3{
    
 
 }
-
+.product-inner-div-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 .p-galary{
     background-color: #66685d;
     border-radius:6px;
-    /* border:1px solid rgb(230, 69, 69); */
-    float:left;
     margin:10px;
     cursor: pointer;
-    width:300px;
-    height:340px;
-    /* transition:0.2s; */
+    min-height:340px;
     
 }
 .p-galary img{
@@ -271,12 +268,11 @@ transition:0.4s;
 
 
 .stories-galary{
-    width:96%;
-    height:800px;
+    width:100%;
     border:1px solid wheat;
     margin:auto;
     margin-top:50px;
-    
+    display: inline-block;
     
 }
 .upload-photos{
@@ -295,8 +291,7 @@ transition:0.4s;
     float:left;
     margin:10px;
     cursor: pointer;
-    width:300px;
-    height:340px;
+    min-height:340px;
     
     
 }
@@ -445,40 +440,53 @@ margin: 12px;
 /* programm activity */
 
 /* Gym-ado-fitness add */
-
+.gym-ado-fitness-inst-add-new{
+    padding: 50px 0px;
+}
+.gym-fitness-underline-block-division-add-new{
+    position: relative;
+    top: -4px;
+}
+.gym-fitness-underline-block-division-capital-box-add-new p{
+    margin: 0px;
+    color: #000;
+    padding: 10px;
+}
+.gym-fitness-underline-block-division-add-new p{
+    margin: 0px;
+    padding: 10px;
+    background-color: yellow;
+    color: #000;
+}
+.gym-ado-fitness-inst-image-row-1-col-1-add-new img{
+    max-width: 100%;
+}
+.adonis-image-row-grid{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto auto auto;
+}
 .gym-ado-fitness-inst-image{
     width:100%;
     /* background-color:#c9c92a; */
-    height:508px;
+    min-height:508px;
    
     background-image: url(../images/image_6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.gym-ado-fitness-inst-image-row-1-col-1{
+    width: 25%;
 }
 .gym-ado-fitness-inst-image-row-1{
     display: flex;
     justify-content: center;
     margin-top: 0px;
     width: 100%;
-    /* background-color: #2ac9a1; */
-    padding-top: 156px;
-    height: 355px;
-    gap:15px;
-
-    /* display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    width: 100%;
     background-color: #2ac9a1;
-    padding-top: 156px;
-    height:355px;
-} */
-}
-.gym-ado-fitness-inst-image-row-1-col-1{
-    width: 18%;
-    height: 199px;
-    /* border: 1px solid red; */
-    /* align-items: center; */
+    margin-top: 156px;
+    min-height: 355px;
+    gap:15px;
 }
 .gym-ado-fitness-inst-image-row-1-col-1 img{
     width: 100%;
@@ -488,17 +496,10 @@ margin: 12px;
 .gym-ado-fitness-inst-image-row-1-col-1-underline{
     margin:4px;
     width:20%;
-    /* background-color:#3e0f96; */
     height:80px;
-    /* border: 1px solid red; */
 }
 .gym-fitness-underline-block{
     display: flex;
-    /* justify-content: space-around; */
-    width: 1217px;
-    /* background-color: #2ac9a1; */
-    /* height: 224px; */
-    /* border: 1px solid red; */
     margin-left: 66px;
     justify-content: center;
     /* display: flex; */
@@ -514,11 +515,9 @@ margin: 12px;
     justify-content: center; */
 }
 .gym-fitness-underline-block-division{
-    
-    width:20%;
     margin-top: 0px;
     background-color: yellow;
-    height: 21px;
+    padding: 10px;
 }
 
 .gym-fitness-underline-block-division P{
@@ -542,6 +541,9 @@ margin-top: 0px;
 .gym-fitness-underline-block-division-capital-box p{
 font-weight: bold;
 }
+.know-more{
+    text-align: center;
+}
 .know-more-button{
     border: 1px solid black;
     align-items: center;
@@ -552,7 +554,6 @@ font-weight: bold;
     width: 163px;
     height: 40px;
     padding: 8px;
-    margin-left: 613px;
     margin-top: 18px;
     font-size: large;
     cursor: pointer;
@@ -867,8 +868,6 @@ margin-left: 10px;
 .contact-section{
 width:100%;
 background-color: rgb(231, 177, 177);
-/* border:1px solid red; */
-margin:2px;
 }
 .contact-section-row-1{
     width:100%;
@@ -977,12 +976,12 @@ margin-left: 115px;
     display:flex;
 }
 .contact-fullname{
-    width: 226px;
+    width: 100%;
     height: 43px;
     border-radius: 4px;
 }
 .contact-email{
-    width: 226px;
+    width: 100%;
     height: 43px;
     border-radius: 4px;
 }
@@ -1005,8 +1004,8 @@ margin-left: 115px;
     }
 
 .contact-massage{
-    width: 528px;
-    height: 124px;
+    width: 100%;
+    min-height: 124px;
     border-radius: 4px;
 }
 .contact-btn-submit{
@@ -1051,23 +1050,13 @@ margin-left: 115px;
    
 }
 .footer-row{
-    /* border:1px solid red; */
     width:100%;
-    /* background-color: rgb(21, 214, 124); */
-    height:400px;
     display:flex;
-}
-.footer-container-row-col-1{
-    /* border:1px solid red; */
-    width:35%;
-    /* background-color: rgb(184, 43, 160); */
-    height:400px;
-    
+    justify-content: space-between;
 }
 
 .footer-container-row-col-1-sub_col-1{
     /* background-color: #73AD21; */
-    height:260px;
     float:left;
     width:50%;
     
@@ -1088,36 +1077,17 @@ margin-left: 115px;
 .footer-container-row-col-1-sub_col-2{
      float:left;
      margin-top: 51px;
-     /* background-color: #afe0e9; */
-     height:200px;
      width:50%;
 
 }
-.footer-container-row-col-2{
-    border:1px solid black;
-    
-    width: 35%;
-    /* background-color: rgb(37, 133, 96); */
-    height: 400px;
-}
-.footer-container-row-col-3{
-    border:1px solid black;
-    
-    width: 35%;
-    /* background-color: rgb(12, 49, 214); */
-    height: 400px;
-}
 .footer-middle-container{
-    border:1px solid black;
     width:100%;
     height:100px;
-    /* background-color: #7bb82d; */
 }
 .footer-last-container{
     border:1px solid rgb(8, 8, 8);
     width:100%;
-    height:200px;
-    /* background-color: #0e0c0d; */
+    background-color: #0e0c0d;
 }
 .footer-mail-box{
     width: 327px;
@@ -1180,8 +1150,6 @@ p{
     margin-top: 14px;
 }
 .similar-footer-div{
-    width: 400px;
-    height: 308px;
     margin: 20px;
     padding: 3px;
 }
