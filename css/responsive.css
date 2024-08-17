@@ -57,4 +57,10 @@
         width: 100%;
         padding: 15px;
     }
+    .body-title{
+        width:100%;
+    }
+    .body-title-image{
+        width:100%;
+    }
 }
