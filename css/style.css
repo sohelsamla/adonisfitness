@@ -1,0 +1,1295 @@
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+}
+body{
+    font-family: Montserrat,sans-serif;
+}
+
+.navbar-ado-home{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    height:60px;
+    margin:0px;
+}
+.img-logo{
+    width:20%;
+    height:60px;
+    float:left;
+}
+.nav-element{
+    width:80%;
+    height:60px;
+    background-color: rgb(0, 0, 0);
+    float:left;
+    
+}
+.nav-element ul{
+    list-style-type: none;
+
+}
+.nav-element ul li{
+    float: left;
+    padding-left:30px;
+    padding-right:20px;
+    padding-top:5px;
+    margin-top: 15px;
+    font-weight:bold;
+
+    
+}
+.nav-element ul li a{
+    color:white;
+    text-decoration: none;
+    padding:4px;
+    
+}
+.nav-element ul li a:hover{
+
+background-color: rgb(208, 218, 211);
+border-radius:4px;
+color:black;
+}
+.signup-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #73AD21;
+    border-radius: 3px;
+    padding:3px;
+    margin-left:10px;
+    cursor: pointer;
+    /* top: 20px;
+    right: 20px;
+    position: absolute;
+    padding: 6px 22px;
+    top: 20px;
+    right: 127px;
+    /* width: 80px; */
+    /* height: 0px; */
+    /* border: 1px solid #73AD21;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center; */ 
+}
+.signup-btn:hover{
+background-color: #858d7b;
+color:rgb(82, 7, 7);
+}
+.login-btn{
+    
+    /* position: absolute;
+    top: 20px;
+    right: 120px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #73AD21;
+    border-radius: 3px;
+    cursor: pointer; */
+    position: absolute;
+    padding: 6px 22px;
+    top: 20px;
+    right: 127px;
+    /* width: 80px; */
+    /* height: 0px; */
+    border: 1px solid #73AD21;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.login-btn:hover{
+    background-color: #858d7b;
+color:rgb(82, 7, 7);
+}
+.body-title {
+    float:left;
+    margin:0px;
+    width: 60%;
+    height:480px;
+   background-color:black;
+}
+h1{
+    background-color: black;
+    color:#f1eaf3;
+    text-align: center;
+    margin:4;
+    padding:12px;
+}
+.body-left-content2{
+    padding-top:50px;
+}
+h2{
+    position: relative;
+    top:30px;
+    color: #eae9f1;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-block-end: 1.5rem;
+    margin: 0;
+    padding: 31px;
+    font-weight: normal;
+    line-height: 52px;
+    margin-left: -12px;
+}
+
+/* h2 {
+    line-height: 2.75rem;
+    @media (min-width: 62rem)
+} */
+p{
+    position:relative;
+    /* top:60px;
+    left:80px; */
+    color:white;
+    padding-left:20px;
+    line-height: 20px;
+    margin-left: 18px;
+    
+}
+h3{
+    color:#e6e7f0;
+    position:relative;
+    /* top:150px;
+    left: 254px; */
+    margin:0;
+    padding-top:30px;
+    padding-left:20px;
+}
+.left-image-content{
+    float:left;
+    margin:0px;
+    width: 50%;
+    height:550px;
+   background-color: #0e1407;
+}
+.body-title-image{
+    
+    background-image: url("images/b_home.jpg");
+    background-size: cover;
+    width:40%;
+    height:480px;
+    border:solid black;
+    
+    display:flex;
+}
+.body-title-image img{
+    max-width: 100%;
+    width: 100%;
+    height:100%;
+}
+.membrshp-btn{
+    /* position:relative;
+    /* top: 150px;
+    left: 260px; */
+    margin: 23px;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(231, 82, 82);
+    border: 1px solid rgb(9, 19, 12);
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px;
+    border-radius: 4px; */
+
+    margin-top: 52px;
+    margin-left: 45px;
+    display: inline-block;
+    padding: 8px 26px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(231, 82, 82);
+    border: 1px solid rgb(9, 19, 12);
+    cursor: pointer;
+    /* box-shadow: 0px 0px 2px 1px; */
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+}
+.membrshp-btn:hover{
+    background-color: aliceblue;
+    color:black;
+}
+
+.product-galary{
+    width:100%;
+    height:800px;
+    /* border:1px solid wheat; */
+    margin:auto;
+    margin-top:18px;
+    
+    
+}
+.product-selling{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 17px;
+   
+
+}
+
+.p-galary{
+    background-color: #66685d;
+    border-radius:6px;
+    /* border:1px solid rgb(230, 69, 69); */
+    float:left;
+    margin:10px;
+    cursor: pointer;
+    width:300px;
+    height:340px;
+    /* transition:0.2s; */
+    
+}
+.p-galary img{
+max-width: 100%;
+width: 100%;
+height: 100%;
+max-height: 300px;
+transition:0.4s;
+}
+.p-galary :hover{
+    transform: scale(1.1);
+}
+.img-caption{
+    text-align: center;
+    padding: 12px;
+    
+}
+
+
+.stories-galary{
+    width:96%;
+    height:800px;
+    border:1px solid wheat;
+    margin:auto;
+    margin-top:50px;
+    
+    
+}
+.upload-photos{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3rem;
+    
+   
+
+}
+
+.story-galary{
+    background-color: #66685d;
+    border-radius:6px;
+    border:1px solid rgb(230, 69, 69);
+    float:left;
+    margin:10px;
+    cursor: pointer;
+    width:300px;
+    height:340px;
+    
+    
+}
+.story-galary img{
+max-width: 100%;
+width: 100%;
+height: 100%;
+max-height: 300px;
+transition:0.4s;
+}
+.story-galary :hover{
+    transform: scale(1.1);
+}
+.img-caption{
+    text-align: center;
+    padding: 12px;
+
+}
+
+
+
+
+
+
+.service-images-attach{
+    position: relative;
+    top:30px;
+}
+.service-images-attach p{
+    color: #17085a;
+}
+.equipment_no_1{
+    width:60%;
+    height:400px;
+    margin-top:200px;
+    background-color:rgb(9, 19, 12);
+    border: solid red;
+}
+.trainer-quality{
+    width:60%;
+    height:400px;
+    background-color:rgb(9, 19, 12);
+    border: solid red;
+}
+.diet-chat{
+    width:60%;
+    height:400px;
+    background-color:rgb(9, 19, 12);
+    border: solid red;
+}
+.suppliment-shop{
+    width:60%;
+    height:400px;
+    background-color:rgb(9, 19, 12);
+    border:solid red;
+}
+
+/* programm activity */
+.programm-activity{
+    padding:0px;
+    width:100%;
+    background-color: #b3a8b0;
+
+}
+.programm-activity-heading{
+    width:70%;
+    margin: 0 auto;
+
+}
+.programm-activity-heading h1{
+color:black;
+
+font-weight: bold;
+background-color: #b3a8b0;
+font-size: 2.7rem;
+}
+.programm-activity-content{
+/* background-color: #afe0e9; */
+width: 70%;
+
+margin: 0 auto;
+}
+.programm-activity-content p{
+    color:black;
+    line-height: 28px;
+    margin-left: 0px;
+}
+
+.programm-activity-content-row1{
+    width:70%;
+ 
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.programm-activity-content-row1-col1{
+width:50%;
+height:300px;
+border:1px solid red;
+background-size: cover;
+}
+.programm-activity-content-row1-col1 img{
+width:100%;
+height: 100%;
+}
+.programm-activity-content-row1-col2{
+    width:50%;
+    height:300px;
+    border:1px solid red;
+}
+
+
+
+
+.programm-activity-content-row1-col2-heading{
+width:100%;
+/* background-color: #46b42b; */
+padding:4px;
+}
+.programm-activity-content-row1-col2-heading h3{
+color:rgb(14, 13, 13);
+font-size: 1.5rem;
+padding:13px
+
+}
+.programm-activity-content-row1-col2-body{
+    width:100%;
+    /* background-color: #d79f29; */
+    margin:0px;
+    
+}
+.programm-activity-content-row1-col2-body p{
+color:black;
+text-align: justify;
+display:inline-block;
+margin: 12px;
+
+}
+
+
+
+
+
+/* programm activity */
+
+/* Gym-ado-fitness add */
+
+.gym-ado-fitness-inst-image{
+    width:100%;
+    /* background-color:#c9c92a; */
+    height:508px;
+   
+    background-image: url(../images/image_6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gym-ado-fitness-inst-image-row-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    /* background-color: #2ac9a1; */
+    padding-top: 156px;
+    height: 355px;
+    gap:15px;
+
+    /* display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #2ac9a1;
+    padding-top: 156px;
+    height:355px;
+} */
+}
+.gym-ado-fitness-inst-image-row-1-col-1{
+    width: 18%;
+    height: 199px;
+    /* border: 1px solid red; */
+    /* align-items: center; */
+}
+.gym-ado-fitness-inst-image-row-1-col-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.gym-ado-fitness-inst-image-row-1-col-1-underline{
+    margin:4px;
+    width:20%;
+    /* background-color:#3e0f96; */
+    height:80px;
+    /* border: 1px solid red; */
+}
+.gym-fitness-underline-block{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 1217px;
+    /* background-color: #2ac9a1; */
+    /* height: 224px; */
+    /* border: 1px solid red; */
+    margin-left: 66px;
+    justify-content: center;
+    /* display: flex; */
+    gap: 15px;
+
+    /* display: flex; */
+    /* justify-content: space-around;
+    width: 1081px;
+    background-color: #2ac9a1;
+    
+    border: 1px solid red;
+    margin-left: 134px;
+    justify-content: center; */
+}
+.gym-fitness-underline-block-division{
+    
+    width:20%;
+    margin-top: 0px;
+    background-color: yellow;
+    height: 21px;
+}
+
+.gym-fitness-underline-block-division P{
+    color:black;
+    font-size:13px;
+   text-align: center;
+    align-items: center;
+justify-content: center;
+padding: 0px;
+font-weight: bold;
+margin-top: 0px;
+
+
+}
+.gym-fitness-underline-block-division-capital{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap: 146px;
+}
+.gym-fitness-underline-block-division-capital-box p{
+font-weight: bold;
+}
+.know-more-button{
+    border: 1px solid black;
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 163px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 613px;
+    margin-top: 18px;
+    font-size: large;
+    cursor: pointer;
+}
+.know-more-button:hover {
+background-color: black;
+color:white;
+}
+.know-more{
+    width:100%;
+    align-items: center;
+    background-position: 50% 50%;
+    
+}
+
+
+
+
+
+
+
+/* Gym-ado-fitness-add */
+
+/* testimonial */
+
+#testimonial{
+    margin-top:30px;
+    width:100%;
+    height:345px;
+    border: 1px solid red;
+    /* background-color: #9aad2a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/image_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.testimonial-body-content{
+    margin-top:30px;
+    width:80%;
+    height:313px;
+    border: 1px solid rgb(20, 16, 16);
+    /* background-color: #ac2ea6; */
+
+}
+.testimonial-head{
+    margin-top:10px;
+    margin-left: 100px;
+    width:80%;
+    /* height:150px; */
+    border: 1px solid red;
+    /* background-color: black; */
+    
+}
+
+
+
+h1.testimonial-head{
+   background-color: none;
+}
+.testimonial-body{
+    width:80%;
+    height:218px;
+    border: 1px solid red;
+    align-items: center;
+    /* background-color: #f4f8ef; */
+    margin-left:100px;
+    margin-top: 8px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 1px;
+    
+    
+}
+
+
+/* testimonial */
+
+
+
+
+/* sign-in page style */
+
+.sign-in-window{
+    width:470px;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left:400px;
+    margin-top: 10px;
+    height:170px;
+    box-shadow: 0px 0px 2px 1px;
+    border:1px solid rgb(59, 39, 39);
+    
+}
+.sign-in-header{
+background-color: #66685d;
+text-align: center;
+color: aliceblue;
+font-size: 1.5rem;
+height: 40px;
+padding: 4px;
+}
+.sign-in-body{
+    margin-top: 24px;
+}
+.element-area{
+    /* background-color: #858d7b; */
+    height:21px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.email-label{
+    width:30%;
+    float:left;
+    font-size:medium;
+    
+}
+.email-container{
+    width:70%;
+    float:left;
+}
+.email-container-text-area{
+    width:95%;
+    border-radius: 3px;
+    border:1px solid rgb(70, 94, 230);
+    
+}
+.email-container-text-area:focus{
+    box-shadow: 0px 0px 1px 1px rgb(40, 56, 146);
+    outline:none;
+}
+.password-label{
+    width:30%;
+    float:left;
+    font-size:medium;
+    
+}
+.password-container{
+    width:70%;
+    float:left;
+}
+.password-container-text-area{
+    width:95%;
+    border-radius: 3px;
+    border:1px solid rgb(70, 94, 230);
+
+    
+}
+.password-container-text-area:focus{
+    box-shadow: 0px 0px 1px 1px rgb(40, 56, 146);
+    outline:none;
+}
+.log-in-submit{
+    position: relative;
+    margin-left: 205px;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(229 216 216);
+    border: 1px solid rgb(234 243 236);
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px;
+    border-radius: 4px;
+    width: 34%;
+}
+.log-in-submit:hover{
+background-color: #afe0e9;
+color: rgb(107, 67, 218);
+border: 1px solid rgb(17, 2, 2)
+}
+
+/* .sign-in-body{
+
+}
+/* .email-container{
+     float:left; 
+    width:800px;
+    height: 25px;
+margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(31, 12, 114);
+    background-color: #66685d;
+} */
+
+/* .password-container{
+     float:left; 
+    width:600px;
+    height:40px;
+    margin:10px;
+} */ 
+
+
+/* Regirtration Form started */
+
+.registration-window{
+    width:100%;
+    height:1100px;
+    margin-left: 0px;
+    border:1px solid red;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/reg_page.jpg");
+    background-size:cover;
+    margin-right: 0px;
+  
+    
+}
+.registration-header{
+    width:100%;
+    height:40px;
+    margin-left:0px;
+    /* border:1px solid black; */
+    /* background-color: #a9c91c; */
+    text-align: center;
+    font-size: 3rem;
+    color: #ddb724;
+    margin-top: 48px;
+    
+    
+}
+/* h1{
+    color:rgb(197, 223, 85);
+} */
+.registration-body{
+    width:100%;
+    height:900px; 
+    margin-left: 240px;
+    /* border:1px solid black; */
+    margin-top: 50px;
+    
+    /* background-image: url("../images/sam8.jpg");
+    background-size: cover; */
+    
+}
+.reg-element-area{
+    height:60px;
+    margin-top: 24px;
+    /* background-color: aqua; */
+    height: 20px;
+    margin-top:44px;
+    /* border: 1px solid red; */
+    margin-left: 25px;
+    font-size:20px;
+    
+}
+.reg-name-label{
+    float:left;
+    width:20%;
+    color: #ddb724;
+    font-weight: bold;
+}
+.reg-name-container{
+    width:70%;
+    float:left;
+}
+
+.reg-name-container-text-area{
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 3px 2px;
+    border-radius: 3px;
+    width:45%;
+    cursor: pointer;
+    padding: 4px;
+}
+.reg-name-container-text-area-radio{
+    color:#0c0c0c;
+    /* border: 1px solid yellow;
+    box-shadow: 0px 0px 3px 2px;
+    border-radius: 3px;
+    width:45%;
+    cursor: pointer; */
+}
+.reg-name-container-text-area-doc{
+
+}
+.reg-name-container-check{
+    color:#ddb724;
+}
+/* .reg-name-container-text-area :focus{
+    background-color: #afe0e9;
+    color: rgb(107, 67, 218);
+    border: 1px solid rgb(17, 2, 2)
+
+} */
+
+.reg-sub-button{
+   margin-top:10px;
+    
+}
+#reg-form-btn{
+    position: relative;
+    margin-left: 570px;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(231, 82, 82);
+    border: 1px solid rgb(9, 19, 12);
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px;
+    border-radius: 25px;
+    width: 360px;
+}
+#reg-form-btn:hover{
+    background-color: aliceblue;
+    color:black;
+}
+  
+/* contact-section */
+.contact-section{
+width:100%;
+background-color: rgb(231, 177, 177);
+/* border:1px solid red; */
+margin:2px;
+}
+.contact-section-row-1{
+    width:100%;
+    /* background-color: #a72d86; */
+    /* border:1px solid rgb(32, 212, 101); */
+    display: flex;
+}
+.contact-section-row-1-col-1{
+    width:50%;
+    /* background-color: #9c941c; */
+    /* border:1px solid rgb(180, 109, 42); */
+    justify-content: center;
+    padding-top: 44px;
+}
+.contact-section-row-1-col-2{
+    width:50%;
+    /* background-color: #f01d40; */
+    /* border:1px solid rgb(10, 10, 10); */
+    
+}
+.contact-heading-section{
+    width:70%;
+    padding:0px;
+
+}
+.contact-heading-section h4{
+    text-align: center;
+    margin-top: 16px;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: -89px;
+}
+.contact-heading-section h1{
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    margin: 4;
+    padding: 12px;
+}
+.contact-heading-section p{
+    padding: 0px;
+    margin-top: 14px;
+    margin-left: 117px;
+    line-height: 26px;
+    color:black;
+
+}
+
+/* .contact-heading-section{
+position: relative;
+color: white;
+padding-left: 20px;
+line-height: 26px;
+padding: 0px;
+margin-top: 14px;
+margin-left: 115px;
+} */
+.contact-media{
+    width:50%;
+    margin-left:100px;
+    padding:9px;
+    /* border:1px solid yellow; */
+}
+.contact-mail-phone{
+    width:100%;
+    margin:0px;
+    padding:9px;
+    /* border:1px solid yellow; */
+}
+
+.contact-area-rating-section{
+    width:60%;
+    height:150px;
+    background-color: blue; 
+    border:1px solid red;
+    margin-left: 100px;
+
+}
+.contact-section-row-1-col-2{
+    
+}
+.contact-section-row-1-col-2-form-section h3{
+    text-align: left;
+    font-size: 1.7rem;
+    color: #0c0c0c;
+    padding: 9px;
+    margin-top: 30px;
+    font-weight: 600;
+    border-bottom: 1px solid #0c0c0c;
+}
+.contact-section-row-1-col-2-form-section{
+   
+    width:90%;
+    border-radius: 9px;
+    background-color: rgb(224, 196, 196);
+    padding-left: 32px;
+    margin-left: 35px;
+    margin-top: 41px;
+    padding-top: 5px;
+
+}
+.contact-section-row-1-col-2-form{
+    width:100%;
+    padding:0px;
+    
+    display:flex;
+}
+.contact-fullname{
+    width: 226px;
+    height: 43px;
+    border-radius: 4px;
+}
+.contact-email{
+    width: 226px;
+    height: 43px;
+    border-radius: 4px;
+}
+.contact-section-row-1-col-2-form-col1{
+    font-size: 1.2rem;
+    color: #141313;
+    padding: 10px;
+
+}
+.contact-section-row-1-col-2-form-col2{
+    font-size: 1.2rem;
+    color: #141313;
+    padding: 10px;
+
+}
+.contact-section-row-2-message{
+    font-size: 1.2rem;
+    color: #141313;
+    padding: 10px;
+    }
+
+.contact-massage{
+    width: 528px;
+    height: 124px;
+    border-radius: 4px;
+}
+.contact-btn-submit{
+    width: 91px;
+    height: 29px;
+    border: 1px solid black;
+    margin-left: 11px;
+    padding: 4px;
+    border-radius: 13px;
+    font-size: 1.1rem;
+    margin-bottom: 26px;
+
+}
+.contact-submit{
+    padding-top: 45px;
+    margin-bottom: 66px;
+}
+
+
+
+/* contact-section */
+
+/* footer section */
+
+#footer-main{
+    /* border:1px solid red; */
+    width:100%;
+    height:670px;
+    /* background-color: rgb(122, 148, 172); */
+    
+    
+    margin-top: 100px;
+}
+.footer-main-container{
+    /* border:1px solid red; */
+    width:100%;
+    background-color: rgb(17, 16, 17);
+    height:700px;
+    /* background-image: url("../images/sign_page1.jpg");
+    background-repeat:no-repeat; */
+    
+   
+}
+.footer-row{
+    /* border:1px solid red; */
+    width:100%;
+    /* background-color: rgb(21, 214, 124); */
+    height:400px;
+    display:flex;
+}
+.footer-container-row-col-1{
+    /* border:1px solid red; */
+    width:35%;
+    /* background-color: rgb(184, 43, 160); */
+    height:400px;
+    
+}
+
+.footer-container-row-col-1-sub_col-1{
+    /* background-color: #73AD21; */
+    height:260px;
+    float:left;
+    width:50%;
+    
+
+}
+.footer-container-row-col-1 ul li a{
+    color:#e6e7f0;
+    text-decoration: none;
+}
+.footer-container-row-col-1 ul li{
+    margin-top: 9px;
+    list-style-type: none;
+    line-height: 20px;
+    
+
+}
+
+.footer-container-row-col-1-sub_col-2{
+     float:left;
+     margin-top: 51px;
+     /* background-color: #afe0e9; */
+     height:200px;
+     width:50%;
+
+}
+.footer-container-row-col-2{
+    border:1px solid black;
+    
+    width: 35%;
+    /* background-color: rgb(37, 133, 96); */
+    height: 400px;
+}
+.footer-container-row-col-3{
+    border:1px solid black;
+    
+    width: 35%;
+    /* background-color: rgb(12, 49, 214); */
+    height: 400px;
+}
+.footer-middle-container{
+    border:1px solid black;
+    width:100%;
+    height:100px;
+    /* background-color: #7bb82d; */
+}
+.footer-last-container{
+    border:1px solid rgb(8, 8, 8);
+    width:100%;
+    height:200px;
+    /* background-color: #0e0c0d; */
+}
+.footer-mail-box{
+    width: 327px;
+    height: 163px;
+    margin: 20px;
+    padding: 3px;
+}
+/* .footer-mail-box-subscribe{
+   
+    margin:20px;
+    padding:3px;
+
+} */
+
+   
+
+.text-area-foot{
+    width:40px;
+    height:4px;
+    border-radius: 6px;
+    border:1px solid black;
+   
+    margin:20px;
+    padding:3px;
+}
+#footer-mail-text-box-placeholder{
+    width: 316px;
+    height: 35px;
+    padding: 17px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+#footer-mail-button-box{
+    margin-top: 20px;
+    width: 316px;
+    height: 37px;
+    border-radius: 33px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #d79f29;
+    cursor: pointer;
+}
+#footer-mail-button-box:hover{
+background-color: #e6e7f0;
+color:#0e1407;
+}
+h4{
+    text-align: center;
+    margin-top: 16px;
+    color: #c9c92a;
+    font-size: 1.7rem;
+}
+p{
+    position: relative;
+    color: white;
+    padding-left: 20px;
+    line-height: 20px;
+    padding: 0px;
+    margin-top: 14px;
+}
+.similar-footer-div{
+    width: 400px;
+    height: 308px;
+    margin: 20px;
+    padding: 3px;
+}
+.social-ado-link{
+    height: 40px;
+    /* border: 1px solid red; */
+    width: 248px;
+    /* background-color: #73AD21; */
+    display: flex;
+    margin-top: 145px;
+    margin-left: 55px;
+    
+}
+.social-adonis{
+    list-style: none;
+    margin: 20px 0 0 0 !important;
+    padding: 0;
+    text-align: left;
+}
+.social-adonis li{
+display: inline;
+margin-right: 2px;
+vertical-align: middle;
+}
+.footer-last-container ul li{
+    float:left;
+    
+    /* font-weight: bold; */
+    list-style: none;
+    display: contents;
+    
+}
+.footer-last-container ul li a{
+    text-decoration: none;
+    color:white;
+    line-height: 24px;
+    font-size: large;
+}
+h4.related-search{
+    color: #b3a8b0;
+    text-align: left;
+    padding: 13px;
+}
+.col-3-div-pic{
+    margin-top:38px;
+    width:30%;
+    height:70px;
+    /* border:1px solid red; */
+    background-image: url("../images/image_6.jpg");
+    float:left;
+}
+.col-3-div-pic-info{
+    float: left;
+    width: 70%;
+    margin-top:30px;
+    padding: 8px;
+}
+.footer-middle-container{
+    display:flex;
+    /* border: 1px solid #b7a0a0; */
+    width: 100%;
+    height: 100px;
+    /* background-color: #7bb82d; */
+    /* background-color: #9d7a7a; */
+}
+.footer-middle-container-1st{
+    width:30%;
+    height:20px;
+    margin-left: 61px;
+    margin-top: 35px;
+}
+.footer-middle-container-2nd{
+    width:30%;
+    height:50px;
+}
+.footer-middle-container-3rd{
+    margin-top: 39px;
+    width: 30%;
+    height: 50px;
+    margin-left: 61px;
+    color:white;
+    
+}
+.footer-middle-container-3rd a{
+    
+    color:white;
+    text-decoration: none;
+}
+@media (max-width: 767px){
+    
+}
+.gym-ado-fitness-inst-sub-div-middle-3 h1{
+color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* color  #9f1919   */
