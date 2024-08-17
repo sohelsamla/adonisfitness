@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration</title>
+</head>
+<body>
+         
+    <div class="navbar-ado-home">
+        <div class="navbar logo">
+          <a href="index.html"><img class="img-logo" src="images/adonislogo.jpg" alt="Chania"></a>
+        </div>
+        <div class="nav-element">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Service</a></li>
+              <li><a href="product.html">Our Products</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="form.html" target="_blank" class="signup-btn">Sign Up</a>
+          <a href="signIn.html" target="_blank" class="login-btn">Log In</a>
+        </div>
+          </div>
+    <form>
+        
+        <div class="registration-window">
+            <div class="registration-header">
+                Registration Form
+            </div>
+            <div class="registration-body">
+                <!-- <img src="images/sign_page1.jpg"> -->
+                <div class="reg-element-area">
+              <div class="reg-name-label"><label for="reg-name">Full Name</label></div>
+                <div class="reg-name-container"><input type="text" class="reg-name-container-text-area"id="reg-name"></div>
+            </div>
+            <div class="reg-element-area">
+                <div class="reg-name-label"><label for="reg-name">Father's Name</label></div>
+                  <div class="reg-name-container"><input type="text" class="reg-name-container-text-area"id="reg-name"></div>
+              </div>
+              <div class="reg-element-area">
+                <div class="reg-name-label"><label for="reg-name">Present Address</label></div>
+                  <div class="reg-name-container"><textarea class="reg-name-container-text-area"id="reg-name" col="60"rows="3"></textarea></div>
+              </div>
+              <div class="reg-element-area">
+                <div class="reg-name-label"><label for="reg-name">Permanent Address</label></div>
+                  <div class="reg-name-container"><textarea class="reg-name-container-text-area"id="reg-name" col="60"rows="3"></textarea></div>
+              </div>
+              <div class="reg-element-area">
+                <div class="reg-name-label"><label for="reg-name">Occupation</label></div>
+                  <div class="reg-name-container"><input type="text" class="reg-name-container-text-area"id="reg-name"></div>
+              </div>
+              <div class="reg-element-area">
+                <div class="reg-name-label"><label for="reg-name">Phone Number</label></div>
+                  <div class="reg-name-container"><input type="number" class="reg-name-container-text-area"id="reg-name"></div>
+              </div>
+              <div class="reg-element-area">
+              <div class="reg-name-label"><label for="e-sign">Email</label></div>
+                <div class="reg-name-container"><input type="email" class="reg-name-container-text-area"id="e-sign"></div>
+            </div>
+            <div class="reg-element-area">
+                <div class="reg-name-label"><label for="e-password">Password</label></div>
+                <div class="reg-name-container"><input type="password"class="reg-name-container-text-area"id="e-password"></div>
+              </div>
+              <div class="reg-element-area">
+                <div class="reg-name-label"><label for="gender">Gender</label>
+                </div>
+              <div class="reg-name-container">
+                <div class="reg-name-container-text-area-radio">
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender">
+                <label for="others">Others</label>
+                </div>
+                </div>
+             </div>
+             <div class="reg-element-area">
+              <div class="reg-name-label"><label for="upload-doc">Upload Aadhaar</label></div>
+              <div class="reg-name-container"><input type="file"class="reg-name-container-text-area-doc"id="aadhaar"></div>
+            </div>
+            <div class="reg-element-area">
+              <div class="reg-name-label"><label for="timming">Select Timming</label></div>
+              <div class="reg-name-container" required="required">
+                <select class="reg-name-container-text-area" id="timming">
+                  <option value="">Please Select</option>
+                 <option value="Morning">6AM to 11AM</option>
+                 <option value="Evening">5PM to 9.30PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="reg-element-area">
+              <div class="reg-name-label"><label for="reg-place">Place</label></div>
+                <div class="reg-name-container"><input type="text" class="reg-name-container-text-area"id="reg-place" value="Berhampore" disabled="disabled"></div>
+            </div>
+            <!-- <div class="reg-element-area">
+              <div class="reg-name-label">&nbsp;</div>
+              <div class="reg-name-container"><input type="checkbox"class="reg-name-container-text-area-doc"id="agreement"><label for="agreement">I have provided all information correct.</label></div>
+            </div> -->
+            <div class="reg-element-area">
+              <div class="reg-name-label"></div>
+              <div class="reg-name-container-check"><input type="checkbox"class="reg-name-container-text-area-check"id="agreement"><label for="agreement"> I have provided all information correctly.</label></div>
+            </div>
+            
+        </div>
+        <div class="reg-sub-button">
+          <button type="button" id="reg-form-btn">Submit</button> 
+        </div>
+        </div>
+    
+    </form>
+    
+</body>
+</html>
