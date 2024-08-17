@@ -1,3 +1,60 @@
-@media (max-width: 600px){
-    
+@media (max-width: 767px){
+    .product-inner-div-item,
+    .adonis-image-row-grid{
+        grid-template-columns: auto;
+    }
+    .programm-activity-content-row1,
+    .gym-ado-fitness-inst-image-row-1{
+        flex-direction: column;
+    }
+    .gym-ado-fitness-inst-image-row-1-col-1-add-new img{
+        width: 100%;
+    }
+    .contact-section-row-1{
+        flex-direction: column;
+    }
+    .contact-section-row-1-col-1,
+    .contact-section-row-1-col-2{
+        width: 100%;
+    }
+    .contact-heading-section{
+        width: 100%;
+    }
+    .contact-heading-section h4,
+    .contact-heading-section h1,
+    .contact-heading-section p{
+        text-align: left;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .contact-area-rating-section,
+    .contact-media{
+        margin-left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    .contact-section-row-1-col-1{
+        padding: 15px;
+    }
+    .contact-section-row-1-col-2-form-section{
+        width: 100%;
+        margin: 0px;
+    }
+    .contact-section-row-1-col-2{
+        padding: 15px;
+    }
+    .footer-row{
+        flex-direction: column;
+    }
+    .programm-activity-content-row1{
+        width: 100%;
+    }
+    .programm-activity-content-row1-col1,
+    .programm-activity-content-row1-col2{
+        width: 100%;
+    }
+    .programm-activity-content{
+        width: 100%;
+        padding: 15px;
+    }
 }
