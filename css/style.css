@@ -62,23 +62,11 @@ color:black;
     padding:3px;
     margin-left:10px;
     cursor: pointer;
-    /* top: 20px;
-    right: 20px;
-    position: absolute;
-    padding: 6px 22px;
-    top: 20px;
-    right: 127px;
-    /* width: 80px; */
-    /* height: 0px; */
-    /* border: 1px solid #73AD21;
-    border-radius: 3px;
-    cursor: pointer;
     background-color: aliceblue;
     color: black;
     font-weight: 700;
     text-decoration: none;
-    display: inline-block;
-    text-align: center; */ 
+   
 }
 .signup-btn:hover{
 background-color: #858d7b;
@@ -86,20 +74,11 @@ color:rgb(82, 7, 7);
 }
 .login-btn{
     
-    /* position: absolute;
-    top: 20px;
-    right: 120px;
-    width: 80px;
-    height: 30px;
-    border: 1px solid #73AD21;
-    border-radius: 3px;
-    cursor: pointer; */
+    
     position: absolute;
     padding: 6px 22px;
     top: 20px;
     right: 127px;
-    /* width: 80px; */
-    /* height: 0px; */
     border: 1px solid #73AD21;
     border-radius: 3px;
     cursor: pointer;
@@ -268,7 +247,7 @@ transition:0.4s;
 
 .stories-galary{
     width:100%;
-    border:1px solid wheat;
+    
     margin:auto;
     margin-top:50px;
     display: inline-block;
@@ -284,16 +263,12 @@ transition:0.4s;
 }
 
 .story-galary{
-    background-color: #66685d;
-    border-radius:6px;
-    border:1px solid rgb(230, 69, 69);
-    float:left;
-    margin:10px;
+  
+    margin: 13px;
     cursor: pointer;
-    min-height:340px;
-    
-    
+    min-height: 340px;
 }
+
 .story-galary img{
 max-width: 100%;
 width: 100%;
@@ -390,18 +365,14 @@ margin: 0 auto;
 }
 .programm-activity-content-row1-col1{
 width:50%;
-height:300px;
-border:1px solid red;
 background-size: cover;
 }
 .programm-activity-content-row1-col1 img{
 width:100%;
-height: 100%;
+
 }
 .programm-activity-content-row1-col2{
     width:50%;
-    height:300px;
-    border:1px solid red;
 }
 
 
@@ -440,7 +411,7 @@ margin: 12px;
 
 /* Gym-ado-fitness add */
 .gym-ado-fitness-inst-add-new{
-    padding: 50px 0px;
+    padding: 0px 0px;
 }
 .gym-fitness-underline-block-division-add-new{
     position: relative;
@@ -752,27 +723,27 @@ margin-left: 10px;
 
 .registration-window{
     width:100%;
-    height:1100px;
+    
     margin-left: 0px;
-    border:1px solid red;
+    
     align-items: center;
     justify-content: center;
     background-image: url("../images/reg_page.jpg");
     background-size:cover;
     margin-right: 0px;
+    padding: 30px;
   
     
 }
 .registration-header{
     width:100%;
-    height:40px;
     margin-left:0px;
     /* border:1px solid black; */
     /* background-color: #a9c91c; */
     text-align: center;
     font-size: 3rem;
     color: #ddb724;
-    margin-top: 48px;
+    
     
     
 }
@@ -781,8 +752,7 @@ margin-left: 10px;
 } */
 .registration-body{
     width:100%;
-    height:900px; 
-    margin-left: 240px;
+    
     /* border:1px solid black; */
     margin-top: 50px;
     
@@ -843,7 +813,7 @@ margin-left: 10px;
 
 .reg-sub-button{
    margin-top:10px;
-    
+    margin-bottom: 70px;
 }
 #reg-form-btn{
     position: relative;
@@ -857,6 +827,7 @@ margin-left: 10px;
     box-shadow: 0px 0px 2px 1px;
     border-radius: 25px;
     width: 360px;
+    margin-bottom: 50px;
 }
 #reg-form-btn:hover{
     background-color: aliceblue;
@@ -867,6 +838,7 @@ margin-left: 10px;
 .contact-section{
 width:100%;
 background-color: rgb(231, 177, 177);
+margin-top: 46px;
 }
 .contact-section-row-1{
     width:100%;
@@ -1032,16 +1004,16 @@ margin-left: 115px;
 #footer-main{
     /* border:1px solid red; */
     width:100%;
-    height:670px;
+    
     /* background-color: rgb(122, 148, 172); */
     
     
-    margin-top: 100px;
+    
 }
 .footer-main-container{
     /* border:1px solid red; */
     width:100%;
-    background-color: rgb(17, 16, 17);
+    background-color: black;
     height:700px;
     /* background-image: url("../images/sign_page1.jpg");
     background-repeat:no-repeat; */
@@ -1081,16 +1053,16 @@ margin-left: 115px;
 }
 .footer-middle-container{
     width:100%;
-    height:100px;
+    
 }
 .footer-last-container{
-    border:1px solid rgb(8, 8, 8);
+    
     width:100%;
-    background-color: #0e0c0d;
+    background-color: black;
 }
 .footer-mail-box{
     width: 327px;
-    height: 163px;
+    
     margin: 20px;
     padding: 3px;
 }
@@ -1153,26 +1125,27 @@ p{
     padding: 3px;
 }
 .social-ado-link{
-    height: 40px;
-    /* border: 1px solid red; */
-    width: 248px;
+    
+    
     /* background-color: #73AD21; */
     display: flex;
-    margin-top: 145px;
-    margin-left: 55px;
+    
+    margin-left: 40px;
     
 }
 .social-adonis{
     list-style: none;
-    margin: 20px 0 0 0 !important;
-    padding: 0;
+    padding:7px;
     text-align: left;
+;
 }
 .social-adonis li{
-display: inline;
-margin-right: 2px;
-vertical-align: middle;
+    display: inline;
+    margin: 0px;
+    padding: 20px;
+    font-size: x-large;
 }
+
 .footer-last-container ul li{
     float:left;
     
@@ -1190,7 +1163,8 @@ vertical-align: middle;
 h4.related-search{
     color: #b3a8b0;
     text-align: left;
-    padding: 13px;
+    padding-left: 39px;
+    padding-bottom: 25px;
 }
 .col-3-div-pic{
     margin-top:38px;
@@ -1210,25 +1184,23 @@ h4.related-search{
     display:flex;
     /* border: 1px solid #b7a0a0; */
     width: 100%;
-    height: 100px;
+    
     /* background-color: #7bb82d; */
     /* background-color: #9d7a7a; */
 }
 .footer-middle-container-1st{
-    width:30%;
-    height:20px;
-    margin-left: 61px;
-    margin-top: 35px;
+    
+    padding: 26px;
+    width: 40%;
+    
 }
 .footer-middle-container-2nd{
     width:30%;
-    height:50px;
 }
 .footer-middle-container-3rd{
-    margin-top: 39px;
+   
     width: 30%;
-    height: 50px;
-    margin-left: 61px;
+   padding: 40px;
     color:white;
     
 }
@@ -1237,12 +1209,7 @@ h4.related-search{
     color:white;
     text-decoration: none;
 }
-@media (max-width: 767px){
-    
-}
-.gym-ado-fitness-inst-sub-div-middle-3 h1{
-color:red;
-}
+
 
 
 
