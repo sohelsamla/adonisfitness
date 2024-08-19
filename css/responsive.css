@@ -63,4 +63,61 @@
     .body-title-image{
         width:100%;
     }
+    .navbar-ado-home{
+        width: 100%;
+    }
+    .footer-container-row-col-2{
+        width: 100%;
+        background-color: black;
+
+    }
+    .footer-container-row-col-3{
+        background-color: black;
+        width: 100%;
+    }
+    .social-ado-link{
+        background-color:black;
+        border: none;
+    }
+    .social-adonis{
+
+    }
+    .footer-middle-container{
+        display: flex;
+        /* flex-direction: column; */
+        background-color: black;
+    }
+    .footer-last-container{
+        padding: 40px;
+        width: 100%;
+    }
+    .footer-last-container{
+        
+    }
+    .related-search{
+        padding: 0px;
+    }
+    .navbar-ado-home{
+        display: flex;
+        flex-direction: column;
+    }
+    .registration-window{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .registration-body{
+        width: 100%;
+    }
+    #reg-form-btn{
+        margin-left: 0px;
+        
+    }
+    .reg-name-container-check{
+        margin-bottom: 30px;
+
+        
+    }
+    .reg-element-area{
+margin-left: 0px;
+    }
 }
