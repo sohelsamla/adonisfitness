@@ -223,4 +223,7 @@
 .menu_bar.active .menu-bar-icon{
     display: none;
 }
+.nav-element ul{
+    display: block;
+}
 }
