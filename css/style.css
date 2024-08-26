@@ -27,6 +27,8 @@ body{
 }
 .nav-element ul{
     list-style-type: none;
+    display: flex;
+    align-items: center;
 
 }
 .nav-element ul li{
@@ -52,17 +54,11 @@ border-radius:4px;
 color:black;
 }
 .signup-btn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 80px;
-    height: 30px;
+    
     border: 1px solid #73AD21;
     border-radius: 3px;
     padding:3px;
-    margin-left:10px;
     cursor: pointer;
-    background-color: aliceblue;
     color: black;
     font-weight: 700;
     text-decoration: none;
@@ -73,21 +69,16 @@ background-color: #858d7b;
 color:rgb(82, 7, 7);
 }
 .login-btn{
-    
-    
-    position: absolute;
-    padding: 6px 22px;
-    top: 20px;
-    right: 127px;
+  
     border: 1px solid #73AD21;
     border-radius: 3px;
     cursor: pointer;
-    background-color: aliceblue;
     color: black;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    padding: 9px 20px;
 }
 .login-btn:hover{
     background-color: #858d7b;
@@ -99,6 +90,9 @@ color:rgb(82, 7, 7);
     width: 60%;
     
    background-color:black;
+}
+.tittle_name h1{
+    padding: 82px;
 }
 h1{
     background-color: black;
@@ -609,34 +603,24 @@ h1.testimonial-head{
 /* sign-in page style */
 
 .sign-in-window{
-    width:470px;
-    
-    justify-content: center;
-    align-items: center;
-    margin-left:400px;
-    margin-top: 10px;
-    height:170px;
+    width:50%;
     box-shadow: 0px 0px 2px 1px;
-    border:1px solid rgb(59, 39, 39);
-    
+    margin: auto;
 }
 .sign-in-header{
 background-color: #66685d;
 text-align: center;
 color: aliceblue;
 font-size: 1.5rem;
-height: 40px;
 padding: 4px;
 }
 .sign-in-body{
-    margin-top: 24px;
+    padding: 22px;
+    width: 100%;
 }
 .element-area{
     /* background-color: #858d7b; */
-    height:21px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    margin-left: 12px;
+    
 }
 .email-label{
     width:30%;
@@ -647,9 +631,10 @@ padding: 4px;
 .email-container{
     width:70%;
     float:left;
+    margin-bottom: 20px;
 }
 .email-container-text-area{
-    width:95%;
+    width:100%;
     border-radius: 3px;
     border:1px solid rgb(70, 94, 230);
     
@@ -667,9 +652,10 @@ padding: 4px;
 .password-container{
     width:70%;
     float:left;
+    margin-bottom: 48px;
 }
 .password-container-text-area{
-    width:95%;
+    width:100%;
     border-radius: 3px;
     border:1px solid rgb(70, 94, 230);
 
@@ -679,9 +665,10 @@ padding: 4px;
     box-shadow: 0px 0px 1px 1px rgb(40, 56, 146);
     outline:none;
 }
+
+
+
 .log-in-submit{
-    position: relative;
-    margin-left: 205px;
     padding: 1px;
     font-size: 14px;
     font-weight: bold;
@@ -697,7 +684,9 @@ background-color: #afe0e9;
 color: rgb(107, 67, 218);
 border: 1px solid rgb(17, 2, 2)
 }
-
+.button-container{
+    text-align: center;
+}
 /* .sign-in-body{
 
 }
@@ -752,33 +741,24 @@ margin-left: 10px;
 } */
 .registration-body{
     width:100%;
-    
-    /* border:1px solid black; */
-    margin-top: 50px;
-    
-    /* background-image: url("../images/sam8.jpg");
-    background-size: cover; */
-    
+    margin:50px auto 0  auto;
+    max-width: 700px;
 }
 .reg-element-area{
-    height:60px;
-    margin-top: 24px;
-    /* background-color: aqua; */
-    height: 20px;
-    margin-top:44px;
-    /* border: 1px solid red; */
+    margin-top:15px;
     margin-left: 25px;
     font-size:20px;
-    
+    display: flex;
+    flex-direction: column;
 }
 .reg-name-label{
     float:left;
-    width:20%;
+    width:100%;
     color: #ddb724;
     font-weight: bold;
 }
 .reg-name-container{
-    width:70%;
+    width:100%;
     float:left;
 }
 
@@ -786,9 +766,13 @@ margin-left: 10px;
     border: 1px solid yellow;
     box-shadow: 0px 0px 3px 2px;
     border-radius: 3px;
-    width:45%;
+    width:100%;
     cursor: pointer;
     padding: 4px;
+    height: 42px;
+}
+textarea.reg-name-container-text-area{
+    height: 120px;
 }
 .reg-name-container-text-area-radio{
     color:#0c0c0c;
@@ -814,10 +798,10 @@ margin-left: 10px;
 .reg-sub-button{
    margin-top:10px;
     margin-bottom: 70px;
+    text-align: center;
 }
 #reg-form-btn{
     position: relative;
-    margin-left: 570px;
     padding: 6px;
     font-size: 16px;
     font-weight: bold;
@@ -1210,20 +1194,11 @@ h4.related-search{
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* color  #9f1919   */
+.banner-div{
+   display: flex;
+}
+.body-title{
+    display: flex;
+   justify-content: center; 
+   flex-direction: column;
+}
