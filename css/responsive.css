@@ -1,123 +1,226 @@
-@media (max-width: 767px){
+@media (max-width: 767px) {
+
     .product-inner-div-item,
-    .adonis-image-row-grid{
+    .adonis-image-row-grid {
         grid-template-columns: auto;
     }
+
     .programm-activity-content-row1,
-    .gym-ado-fitness-inst-image-row-1{
+    .gym-ado-fitness-inst-image-row-1 {
         flex-direction: column;
     }
-    .gym-ado-fitness-inst-image-row-1-col-1-add-new img{
+
+    .gym-ado-fitness-inst-image-row-1-col-1-add-new img {
         width: 100%;
     }
-    .contact-section-row-1{
+
+    .contact-section-row-1 {
         flex-direction: column;
     }
+
     .contact-section-row-1-col-1,
-    .contact-section-row-1-col-2{
+    .contact-section-row-1-col-2 {
         width: 100%;
     }
-    .contact-heading-section{
+
+    .contact-heading-section {
         width: 100%;
     }
+
     .contact-heading-section h4,
     .contact-heading-section h1,
-    .contact-heading-section p{
+    .contact-heading-section p {
         text-align: left;
         margin-left: 0px;
         padding: 0px;
     }
+
     .contact-area-rating-section,
-    .contact-media{
+    .contact-media {
         margin-left: 0px;
         width: 100%;
         padding: 0px;
     }
-    .contact-section-row-1-col-1{
+
+    .contact-section-row-1-col-1 {
         padding: 15px;
     }
-    .contact-section-row-1-col-2-form-section{
+
+    .contact-section-row-1-col-2-form-section {
         width: 100%;
         margin: 0px;
     }
-    .contact-section-row-1-col-2{
+
+    .contact-section-row-1-col-2 {
         padding: 15px;
     }
-    .footer-row{
+
+    .footer-row {
         flex-direction: column;
     }
-    .programm-activity-content-row1{
+
+    .programm-activity-content-row1 {
         width: 100%;
     }
+
     .programm-activity-content-row1-col1,
-    .programm-activity-content-row1-col2{
+    .programm-activity-content-row1-col2 {
         width: 100%;
     }
-    .programm-activity-content{
+
+    .programm-activity-content {
         width: 100%;
         padding: 15px;
     }
-    .body-title{
-        width:100%;
-    }
-    .body-title-image{
-        width:100%;
-    }
-    .navbar-ado-home{
+
+    .body-title {
         width: 100%;
     }
-    .footer-container-row-col-2{
+
+    .body-title-image {
+        width: 100%;
+    }
+
+    .navbar-ado-home {
+        width: 100%;
+    }
+
+    .footer-container-row-col-2 {
         width: 100%;
         background-color: black;
 
     }
-    .footer-container-row-col-3{
+
+    .footer-container-row-col-3 {
         background-color: black;
         width: 100%;
     }
-    .social-ado-link{
-        background-color:black;
+
+    .social-ado-link {
+        background-color: black;
         border: none;
     }
-    .social-adonis{
 
-    }
-    .footer-middle-container{
+    .social-adonis {}
+
+    .footer-middle-container {
         display: flex;
         /* flex-direction: column; */
         background-color: black;
     }
-    .footer-last-container{
+
+    .footer-last-container {
         padding: 40px;
         width: 100%;
     }
-    .footer-last-container{
-        
-    }
-    .related-search{
+
+    .footer-last-container {}
+
+    .related-search {
         padding: 0px;
     }
-    .navbar-ado-home{
+
+    .navbar-ado-home {
         display: flex;
         flex-direction: column;
     }
-    .registration-window{
+
+    .registration-window {
         width: 100%;
         margin-left: 0px;
     }
-    .registration-body{
+
+    .registration-body {
         width: 100%;
     }
-    #reg-form-btn{
+
+    #reg-form-btn {
         margin-left: 0px;
-        
+
     }
-    .reg-name-container-check{
+
+    .reg-name-container-check {
         margin-bottom: 30px;
 
-        
+
+    }
+
+    .reg-element-area {
+        margin-left: 0px;
+    }
+
+    .reg-name-label {
+        width: 100%;
+        float: none;
+    }
+
+    .reg-name-container {
+        width: 100%;
+        float: none;
+    }
+
+    .reg-name-container-text-area {
+        width: 100%;
+    }
+
+    #reg-form-btn{
+        width: 100%;
+    }
+    .sign-in-window{
+        width: 100%;
+    }
+    .email-label{
+        width: 100%;
+    }
+    .email-container{
+        width: 100%;
+    }
+    .password-label{
+        width: 100%;
+    }
+    .password-container{
+        width: 100%;
     }
     .reg-element-area{
-margin-left: 0px;
+        flex-direction: column;
     }
+    .menu_bar {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+    }
+    .menu_bar i{
+        font-size: 25px;
+    color: #fff;
+    }
+    .nav-element{
+        display: none;
+        width: 100%;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    padding-bottom: 25px;
+    z-index: 1;
+    }
+
+    .sign-login-button{
+        padding-right: 30px;
+        display: flex;
+    }
+ .nav-element ul li {
+    display: block;
+    width: 100%;
+}       
+.nav-element ul{
+    padding-left: 0px;
+}
+.menu_bar .close-icon{
+    display: none;
+} 
+.menu_bar.active .close-icon{
+    display: block;
+}  
+.menu_bar.active .menu-bar-icon{
+    display: none;
+}
 }
