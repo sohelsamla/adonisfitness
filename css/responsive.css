@@ -4,6 +4,12 @@
     .adonis-image-row-grid {
         grid-template-columns: auto;
     }
+     .body-title h2{
+        font-size: 1.5rem;
+        line-height: 36px;
+        margin-left: 0px;
+        padding: 17px;
+    }
 
     .programm-activity-content-row1,
     .gym-ado-fitness-inst-image-row-1 {
