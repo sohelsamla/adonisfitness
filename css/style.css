@@ -136,11 +136,10 @@ p{
 h3{
     color:#e6e7f0;
     position:relative;
-    /* top:150px;
-    left: 254px; */
     margin:0;
-    padding-top:30px;
-    padding-left:20px;
+    padding-top: 15px;
+    padding-left: 19px;
+    padding-bottom: 4px;
 }
 .left-image-content{
     float:left;
@@ -164,29 +163,15 @@ h3{
     height:100%;
 }
 .membrshp-btn{
-    /* position:relative;
-    /* top: 150px;
-    left: 260px; */
     margin: 23px;
-    padding: 6px;
-    font-size: 14px;
-    font-weight: bold;
-    background-color: rgb(231, 82, 82);
-    border: 1px solid rgb(9, 19, 12);
+    padding: 8px;
     cursor: pointer;
     box-shadow: 0px 0px 2px 1px;
-    border-radius: 4px; */
-
-    margin-top: 52px;
-    margin-left: 45px;
+    margin-left: 19px;
     display: inline-block;
-    padding: 8px 26px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     background-color: rgb(231, 82, 82);
-    border: 1px solid rgb(9, 19, 12);
-    cursor: pointer;
-    /* box-shadow: 0px 0px 2px 1px; */
     border-radius: 12px;
     text-decoration: none;
     color: black;
