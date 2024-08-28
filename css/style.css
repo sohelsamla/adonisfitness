@@ -194,6 +194,7 @@ h3{
 .product-inner-div-item{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding-bottom:40px;
 }
 .p-galary{
     background-color: #66685d;
